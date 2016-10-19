@@ -48,6 +48,7 @@
           "readonly": false,
           "title": "label",
           "key": "prop1"
-        }
+        },
+        "prop-enum"
     ]
 }
