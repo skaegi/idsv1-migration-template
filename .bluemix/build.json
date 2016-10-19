@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Sample Deploy Stage",
+    "description": "sample toolchain",
+    "longDescription": "The Delivery Pipeline automates continuous deployment.",
+    "type": "object",
+    "properties": {
+        "prop1": {
+            "description": "First prop",
+            "type": "string"
+        },
+        "prop2": {
+            "description": "Second prop",
+            "type": "string"
+        }
+    },
+    "required": ["prod-region", "prod-organization", "prod-space", "prod-app-name"],
+    "form": [      
+        {
+          "type": "text",
+          "readonly": false,
+          "title": "text",
+          "key": "prod-app-name"
+        },
+        {
+          "type": "boolean",
+          "readonly": false,
+          "title": "boolean",
+          "key": "prod-app-name"
+        },
+        {
+          "type": "password",
+          "readonly": false,
+          "title": "password",
+          "key": "prod-app-name"
+        },
+        {
+          "type": "label",
+          "readonly": false,
+          "title": "label",
+          "key": "prod-app-name"
+        }
+        
+    ]
+}

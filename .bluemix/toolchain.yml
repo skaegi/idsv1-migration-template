@@ -1,0 +1,52 @@
+name: IDSv1 migration template (Github flow)
+description: >
+  This template is used to create a completely non-destructive toolchain representing the v1 project.
+  In particular this toolchain does not migrate Delivery Pipeline and instead uses a CTI to represent your V1
+  pipeline.
+image: data:image/png;base64,$file(toolchain.png,base64)
+
+# Github repos
+repo:
+  service_id: githubpublic
+  parameters:
+    repo_url: https://github.com/open-toolchain/node-hello-world
+    type: link
+    has_issues: true
+  hidden: [form, description]
+
+# Pipelines
+build:
+  service_id: pipeline
+  parameters:
+    name: node-hello-world
+    ui-pipeline: true
+    configuration: 
+     execute: true
+    services: ["repo"]
+  hidden: [form, description]
+
+#Web IDE
+webide:
+  service_id: orion
+  
+repo-ui:
+  schema: 
+    $ref: repo.json
+  service-category: githubpublic
+  parameters:
+    prop1: "{{region}}"
+    prop2: "{{organization}}"
+    prop3: "{{space}}"
+    
+build-ui:
+  schema: 
+    $ref: build.json
+  service-category: pipeline
+  parameters:
+    prop1: "{{region}}"
+    prop2: "{{organization}}"
+    prop3: "{{space}}"
+    
+    
+    
+    
