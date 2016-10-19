@@ -48,12 +48,6 @@
           "readonly": false,
           "title": "label",
           "key": "prop1"
-        },
-        {
-          "type": "selectfieldset",
-          "readonly": false,
-          "title": "selectfieldset",
-          "key": "prop-enum"
-        }   
+        } 
     ]
 }
