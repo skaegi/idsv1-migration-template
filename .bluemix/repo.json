@@ -34,19 +34,19 @@
         {
           "type": "boolean",
           "readonly": false,
-          "title": "boolean",
+          "title": "checkbox",
           "key": "prop1"
         },
         {
           "type": "password",
           "readonly": false,
-          "title": "password",
+          "title": "password field",
           "key": "prop1"
         },
         {
           "type": "label",
           "readonly": false,
-          "title": "label",
+          "title": "label field",
           "key": "prop1"
         },
         {
