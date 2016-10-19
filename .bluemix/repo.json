@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Sample Deploy Stage",
     "description": "sample toolchain",
-    "longDescription": "Here is where we could write some words to gently reassure the user that nothing can go wrong.",
+    "longDescription": "This is a custom UI. Here is where we could write some words to gently reassure the user that nothing will go wrong. Below are some field type examples:",
     "type": "object",
     "properties": {
         "prop1": {
@@ -28,28 +28,24 @@
         {
           "type": "text",
           "readonly": false,
-          "title": "text",
+          "title": "A text field",
           "key": "prop1"
-        },
-        {
+        }, {
           "type": "boolean",
           "readonly": false,
-          "title": "checkbox",
+          "title": "A checkbox",
           "key": "prop1"
-        },
-        {
+        }, {
           "type": "password",
           "readonly": false,
-          "title": "password field",
+          "title": "A password field",
           "key": "prop1"
-        },
-        {
+        }, {
           "type": "label",
           "readonly": false,
-          "title": "label field",
+          "title": "A read-only label field",
           "key": "prop1"
-        },
-        {
+        }, {
           "type": "dropdown",
           "readonly": false,
           "title": "dropdown",
