@@ -23,7 +23,7 @@
             "enum": ["a","b","c"]
         }
     },
-    "required": ["prod-region", "prod-organization", "prod-space", "prod-app-name"],
+    "required": ["prop1"],
     "form": [      
         {
           "type": "text",
@@ -48,6 +48,6 @@
           "readonly": false,
           "title": "label",
           "key": "prop1"
-        } 
+        }
     ]
 }
