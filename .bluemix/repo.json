@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Sample Deploy Stage",
+    "description": "sample toolchain",
+    "longDescription": "Here is where we could write some words to gently reassure the user that nothing can go wrong.",
+    "type": "object",
+    "properties": {
+        "prop1": {
+            "description": "First prop",
+            "type": "string"
+        },
+        "prop2": {
+            "description": "Second prop",
+            "type": "string"
+        },
+        "prop3": {
+            "description": "Second prop",
+            "type": "string"
+        },
+        "prop-enum": {
+            "description": "Second prop",
+            "type": "string",
+            "enum": ["a","b","c"]
+        }
+    },
+    "required": ["prod-region", "prod-organization", "prod-space", "prod-app-name"],
+    "form": [      
+        {
+          "type": "text",
+          "readonly": false,
+          "title": "text",
+          "key": "prop1"
+        },
+        {
+          "type": "boolean",
+          "readonly": false,
+          "title": "boolean",
+          "key": "prop1"
+        },
+        {
+          "type": "password",
+          "readonly": false,
+          "title": "password",
+          "key": "prop1"
+        },
+        {
+          "type": "label",
+          "readonly": false,
+          "title": "label",
+          "key": "prop1"
+        },
+        {
+          "type": "selectfieldset",
+          "readonly": false,
+          "title": "selectfieldset",
+          "key": "prop-enum"
+        }   
+    ]
+}
