@@ -49,6 +49,11 @@
           "title": "label",
           "key": "prop1"
         },
-        "prop-enum"
+        {
+          "type": "dropdown",
+          "readonly": false,
+          "title": "dropdown",
+          "key": "prop-enum"
+        }
     ]
 }
