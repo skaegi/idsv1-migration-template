@@ -49,7 +49,8 @@ build-ui:
   schema: 
     $ref: build.json
   service-category: pipeline
-
+  parameters:
+    prop1: https://github.com/open-toolchain/node-hello-world
     
     
     
