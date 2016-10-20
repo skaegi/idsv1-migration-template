@@ -2,54 +2,21 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Sample Deploy Stage",
     "description": "sample toolchain",
-    "longDescription": "This is a custom UI. Here is where we could write some words to gently reassure the user that nothing will go wrong. Below are some field type examples:",
+    "longDescription": "This is custom UI and would contain text describing the GitHub integration and how it applies in this particular case to the migration.",
     "type": "object",
     "properties": {
         "prop1": {
             "description": "First prop",
             "type": "string"
-        },
-        "prop2": {
-            "description": "Second prop",
-            "type": "string"
-        },
-        "prop3": {
-            "description": "Second prop",
-            "type": "string"
-        },
-        "prop-enum": {
-            "description": "Second prop",
-            "type": "string",
-            "enum": ["a","b","c"]
         }
     },
     "required": ["prop1"],
     "form": [      
         {
-          "type": "text",
-          "readonly": false,
-          "title": "A text field",
+          "type": "string",
+          "readonly": true,
+          "title": "GitHub Repository",
           "key": "prop1"
-        }, {
-          "type": "boolean",
-          "readonly": false,
-          "title": "A checkbox",
-          "key": "prop1"
-        }, {
-          "type": "password",
-          "readonly": false,
-          "title": "A password field",
-          "key": "prop1"
-        }, {
-          "type": "label",
-          "readonly": false,
-          "title": "A read-only label field",
-          "key": "prop1"
-        }, {
-          "type": "dropdown",
-          "readonly": false,
-          "title": "dropdown",
-          "key": "prop-enum"
         }
     ]
 }
