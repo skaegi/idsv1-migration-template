@@ -43,7 +43,7 @@ repo-ui:
     $ref: repo.json
   service-category: githubpublic
   parameters:
-    prop1: "{{repo.parameters.repo_url}}"
+    prop1: https://github.com/open-toolchain/node-hello-world
     
 build-ui:
   schema: 
