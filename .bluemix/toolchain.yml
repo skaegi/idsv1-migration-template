@@ -1,21 +1,21 @@
 name: IDSv1 migration  (Github flow)
 description: "This sidebar is used to help walk the user through the update process and help the user to make the best choices for their particular situation. This is not simply a description of the process but instead a much more substantial how-to type document.
-  
+  ---
   ### WHAT WE KNOW ABOUT YOUR PROJECT
   
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue erat. Donec ut nisl tincidunt, ornare arcu euismod, sodales lacus. Nullam interdum rutrum elementum. Nam vel pretium sem. Nunc rhoncus est fermentum ornare mattis. Aliquam sollicitudin nibh non sapien dictum malesuada. Duis lacinia dapibus lectus, vitae malesuada ligula. Nullam euismod tellus libero, et tristique elit sagittis non.
-  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a augue erat. Donec ut nisl tincidunt, ornare arcu euismod, sodales lacus. Nullam interdum rutrum elementum. Nam vel pretium sem. Nunc rhoncus est fermentum ornare mattis. Aliquam sollicitudin nibh non sapien dictum malesuada. Duis lacinia dapibus lectus, vitae malesuada ligula. 
+  ---
   ### WHAT THE UPDATE PROCESS IS GOING TO DO
   
-  Integer varius magna luctus nisl ornare, nec lacinia enim fermentum. Nunc rhoncus imperdiet ligula ac elementum. Aliquam pulvinar, ante quis pharetra placerat, sapien leo iaculis purus, a ultricies lacus odio at nisi. Donec id sem in sem sagittis maximus at eu felis. Donec vel faucibus nunc. Quisque mi nisi, blandit id condimentum blandit, bibendum eu enim. Nullam vel ex vel est faucibus fringilla. Curabitur consequat mauris sit amet orci dignissim porttitor. Aliquam et libero neque. Nulla quis tincidunt urna. Pellentesque scelerisque cursus vulputate. Curabitur vel mi purus. Mauris magna elit, rutrum ac tristique nec, rutrum a ligula. Cras eu molestie orci, dictum sodales ligula. Pellentesque augue mi, maximus ut metus nec, bibendum placerat orci. Nulla sit amet odio risus.
-  
+  Integer varius magna luctus nisl ornare, nec lacinia enim fermentum. Nunc rhoncus imperdiet ligula ac elementum. Aliquam pulvinar, ante quis pharetra placerat, sapien leo iaculis purus, a ultricies lacus odio at nisi. Donec id sem in sem sagittis maximus at eu felis. Donec vel faucibus nunc. Quisque mi nisi, blandit id condimentum blandit, bibendum eu enim. Nullam vel ex vel est faucibus fringilla. Curabitur consequat mauris sit amet orci dignissim porttitor. Aliquam et libero neque. Nulla quis tincidunt urna. Pellentesque scelerisque cursus vu
+  ---
   ### CAVEATS
   
-  Duis vehicula nisi quis odio tincidunt, ut rutrum lacus euismod. Ut eu venenatis erat, ac ullamcorper ligula. Proin est diam, laoreet eu justo suscipit, pellentesque fringilla augue. Proin tortor turpis, lacinia sit amet feugiat sit amet, aliquet pulvinar nisi. Sed metus eros, porttitor sit amet accumsan quis, lacinia vitae ex. Mauris at risus aliquam, rhoncus mauris ut, faucibus orci. Sed vel ullamcorper sem, non elementum nibh. Proin hendrerit posuere dignissim. Nunc ornare sodales neque, eu tincidunt magna porta eget. Maecenas eu congue nunc. Quisque tempor mattis dui, in rutrum magna. Praesent urna est, facilisis vel lorem a, accumsan convallis arcu.
-  
+  Duis vehicula nisi quis odio tincidunt, ut rutrum lacus euismod. Ut eu venenatis erat, ac ullamcorper ligula. Proin est diam, laoreet eu justo suscipit, pellentesque fringilla augue. Proin tortor turpis, lacinia sit amet feugiat sit amet, aliquet pulvinar nisi. Sed metus eros, porttitor sit amet accumsan quis, lacinia vitae ex. Mauris at risus aliquam, rhoncus mauris ut, faucibus orci. Sed vel ullamcorper sem, non elementum nibh. Proin hendrerit posuere dignissim. 
+  ---
   ### MORE INFO
   
-  Phasellus nec tortor lectus. Nam nec lobortis ante. Vestibulum posuere eu nulla id scelerisque. Suspendisse risus metus, egestas sit amet sagittis id, lacinia non ipsum. Nullam fermentum maximus ligula, non egestas justo hendrerit vitae. Aenean iaculis nec est eu luctus. Duis id felis in turpis pharetra consectetur. Fusce eu elit suscipit, scelerisque dui sit amet, faucibus magna."
+  Phasellus nec tortor lectus. Nam nec lobortis ante. Vestibulum posuere eu nulla id scelerisque. Aenean iaculis nec est eu luctus. Duis id felis in turpis pharetra consectetur. Fusce eu elit suscipit, scelerisque dui sit amet, faucibus magna."
 image: data:image/png;base64,$file(toolchain.png,base64)
 
 # Github repos
